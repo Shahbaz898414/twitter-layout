@@ -1,0 +1,299 @@
+.middle .middle-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 2px;
+  background-color: #191919; }
+  .middle .middle-section .about {
+    margin: 0 10px;
+    margin-top: 35px; }
+    .middle .middle-section .about h5,
+    .middle .middle-section .about h4 {
+      padding-bottom: 8px; }
+    .middle .middle-section .about li {
+      padding-bottom: 5px;
+      color: #808080; }
+    .middle .middle-section .about .tweet-twitter {
+      text-decoration: none;
+      background: #4ad0f3;
+      padding: 8px;
+      border-radius: 20px;
+      text-align: center;
+      margin-top: 5px; }
+      .middle .middle-section .about .tweet-twitter a {
+        color: #fff;
+        font-weight: bold; }
+  .middle .middle-section .center {
+    margin: 12px 0;
+    border: 2px solid #808080;
+    padding: 5px;
+    background-color: #3c3d3a; }
+    .middle .middle-section .center-a ul {
+      display: flex; }
+      .middle .middle-section .center-a ul li {
+        padding: 10px 20px;
+        color: #fff;
+        font-weight: bold; }
+        .middle .middle-section .center-a ul li span {
+          color: #4ad0f3;
+          font-weight: bold; }
+    .middle .middle-section .center-b {
+      display: grid;
+      grid-template-columns: 1fr 9fr;
+      padding: 5px; }
+      .middle .middle-section .center-b .img img {
+        border-radius: 50%; }
+      .middle .middle-section .center-b-1 ul {
+        color: #fff; }
+        .middle .middle-section .center-b-1 ul li span {
+          color: #808080; }
+      .middle .middle-section .center-b-1 .comment ul {
+        display: flex; }
+        .middle .middle-section .center-b-1 .comment ul li {
+          padding: 10px;
+          color: #808080;
+          font-weight: bold; }
+      .middle .middle-section .center-b-1 span {
+        color: #4ad0f3;
+        font-weight: bold; }
+    .middle .middle-section .center-c {
+      display: grid;
+      grid-template-columns: 1fr 9fr;
+      padding: 5px; }
+      .middle .middle-section .center-c .img img {
+        border-radius: 50%; }
+      .middle .middle-section .center-c-1 ul li {
+        font-weight: bold;
+        color: #fff; }
+        .middle .middle-section .center-c-1 ul li span {
+          color: #808080; }
+      .middle .middle-section .center-c-1 img {
+        border-radius: 5px; }
+  .middle .middle-section .people {
+    margin: 10px 4px;
+    border: 2px solid #808080;
+    background-color: #3c3d3a; }
+    .middle .middle-section .people-a {
+      display: flex;
+      text-align: center;
+      padding: 8px 6px;
+      color: #fff;
+      font-weight: bold; }
+      .middle .middle-section .people-a ul {
+        margin: 2px;
+        display: flex; }
+        .middle .middle-section .people-a ul li {
+          margin: 2px; }
+          .middle .middle-section .people-a ul li i {
+            color: #fff; }
+          .middle .middle-section .people-a ul li a {
+            color: #4ad0f3; }
+    .middle .middle-section .people-b {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      margin-bottom: 8px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    .middle .middle-section .people-c {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      margin: 8px 5px; }
+      .middle .middle-section .people-c-1 {
+        margin: 8px 0; }
+    .middle .middle-section .people-d {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      margin: 8px 5px; }
+      .middle .middle-section .people-d-1 {
+        margin: 8px 0; }
+    .middle .middle-section .people .person {
+      color: #4ad0f3;
+      font-weight: bold; }
+      .middle .middle-section .people .person p {
+        margin: 10px 10px; }
+
+.follow-icon .follow a {
+  border-radius: 20px;
+  border: 2px #4ad0f3 solid;
+  padding: 3px 10px;
+  color: #4ad0f3;
+  font-weight: bold; }
+
+.b {
+  border-bottom: 2px solid #808080;
+  width: 100%; }
+
+.img img {
+  border-radius: 50%; }
+
+.david {
+  margin-bottom: 8px; }
+  .david span {
+    color: #fff; }
+    .david span i {
+      color: #fff; }
+
+.about h5 {
+  color: #808080; }
+
+.about h2,
+.about h4 {
+  color: #fff; }
+
+.about h2 i {
+  color: #fff; }
+
+.about ul li i {
+  color: #808080; }
+
+strong {
+  color: #4ad0f3;
+  font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.layout {
+  z-index: 1;
+  position: sticky;
+  top: 0; }
+  .layout .layout_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #3c3d3a;
+    max-width: 1100px;
+    overflow: hidden; }
+    .layout .layout_navbar .one-1 {
+      color: #fff;
+      font-weight: bold;
+      margin-left: 20px; }
+      .layout .layout_navbar .one-1 .navbar-actions ul {
+        display: flex;
+        padding: 0 10px;
+        justify-content: flex-start;
+        margin-left: 5px 5px; }
+        .layout .layout_navbar .one-1 .navbar-actions ul li {
+          padding: 13px;
+          font-size: 13px; }
+    .layout .layout_navbar .navbar-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #4ad0f3;
+      font-weight: bold; }
+    .layout .layout_navbar .one {
+      display: flex;
+      justify-content: space-evenly;
+      align-content: center; }
+      .layout .layout_navbar .one .main-navbar-search {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: bold; }
+        .layout .layout_navbar .one .main-navbar-search .navbar-search {
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-right: 35px;
+          height: 30px;
+          border: 2px #808080 solid;
+          padding: 5px;
+          border-radius: 30px; }
+          .layout .layout_navbar .one .main-navbar-search .navbar-search input {
+            outline: none;
+            border: none;
+            color: #3c3b3a;
+            background-color: #3c3b3a; }
+          .layout .layout_navbar .one .main-navbar-search .navbar-search i {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            color: #808080; }
+      .layout .layout_navbar .one .navbar-profile {
+        display: flex;
+        align-self: center;
+        margin-left: 1rem;
+        margin-right: 3rem;
+        border-radius: 50%; }
+      .layout .layout_navbar .one .navbar-tweet {
+        display: flex;
+        align-self: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: block; }
+        .layout .layout_navbar .one .navbar-tweet a {
+          text-decoration: none;
+          background: #4ad0f3;
+          padding: 8px;
+          border-radius: 8px;
+          color: #fff;
+          font-weight: bold; }
+
+.layout_image-container {
+  margin-bottom: 0;
+  border-bottom: 3px solid #3c3b3a; }
+
+.big-logo {
+  height: 0;
+  margin-bottom: 0; }
+  .big-logo-twitter img {
+    border: 4px solid #191919;
+    border-radius: 50%;
+    transform: translate(10px, -80px); }
+
+.showcase {
+  margin-top: 0; }
+  .showcase .section {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: #3c3d3a;
+    color: #808080;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 0; }
+    .showcase .section .showcase-main {
+      display: flex;
+      margin-right: 20rem; }
+      .showcase .section .showcase-main .tweets {
+        margin-right: 1.4rem;
+        border: 3px transparent solid;
+        border-bottom: 3px #4ad0f3 solid;
+        color: #4ad0f3; }
+      .showcase .section .showcase-main .Following {
+        margin-right: 1.4rem; }
+      .showcase .section .showcase-main .followers {
+        margin-right: 1.4rem; }
+      .showcase .section .showcase-main .Likes {
+        margin-right: 1.4rem; }
+      .showcase .section .showcase-main .Lists {
+        margin-right: 1.4rem; }
+      .showcase .section .showcase-main .Moments {
+        margin-right: 1.4rem; }
+    .showcase .section .follow-icon {
+      margin: 10px; }
+      .showcase .section .follow-icon .follow ul {
+        display: flex; }
+        .showcase .section .follow-icon .follow ul li {
+          flex-direction: column;
+          margin-right: 1rem; }
+          .showcase .section .follow-icon .follow ul li a {
+            border-radius: 20px;
+            border: 2px #4ad0f3 solid;
+            padding: 3px 10px;
+            color: #4ad0f3;
+            font-weight: bold; }
+    .showcase .section a {
+      color: #808080;
+      font-weight: bold; }

@@ -1,0 +1,247 @@
+// last section
+
+.middle {
+  .middle-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2px;
+    background-color: #191919;
+    .about {
+      margin: 0 10px;
+      margin-top: 35px;
+      // color: #fff;
+      h5,
+      h4 {
+        padding-bottom: 8px;
+      }
+
+      li {
+        padding-bottom: 5px;
+        color: #808080;
+      }
+      .tweet-twitter {
+        text-decoration: none;
+        background: #4ad0f3;
+        padding: 8px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 5px;
+
+        a {
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .center {
+      margin: 12px 0;
+      border: 2px solid #808080;
+      padding: 5px;
+      background-color: #3c3d3a;
+
+      &-a {
+        ul {
+          display: flex;
+
+          li {
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: bold;
+            span {
+              color: #4ad0f3;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      &-b {
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        padding: 5px;
+        .img {
+          img {
+            border-radius: 50%;
+          }
+        }
+
+        &-1 {
+          ul {
+            color: #fff;
+            li {
+              span {
+                color: #808080;
+              }
+            }
+          }
+          .comment {
+            ul {
+              display: flex;
+              li {
+                padding: 10px;
+                color: #808080;
+                font-weight: bold;
+              }
+            }
+          }
+
+          span {
+            color: #4ad0f3;
+            font-weight: bold;
+          }
+        }
+      }
+
+      &-c {
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        padding: 5px;
+
+        .img {
+          img {
+            border-radius: 50%;
+          }
+        }
+
+        &-1 {
+          ul {
+            li {
+              font-weight: bold;
+              color: #fff;
+              span {
+                color: #808080;
+              }
+            }
+          }
+          img {
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .people {
+      margin: 10px 4px;
+      border: 2px solid #808080;
+      background-color: #3c3d3a;
+      &-a {
+        display: flex;
+        text-align: center;
+        padding: 8px 6px;
+        color: #fff;
+        font-weight: bold;
+        ul {
+          margin: 2px;
+          display: flex;
+          li {
+            margin: 2px;
+            i {
+              color: #fff;
+            }
+            a {
+              color: #4ad0f3;
+            }
+          }
+        }
+      }
+      &-b {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin-bottom: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      &-c {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin: 8px 5px;
+
+        &-1 {
+          margin: 8px 0;
+        }
+      }
+
+      &-d {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin: 8px 5px;
+
+        &-1 {
+          margin: 8px 0;
+        }
+      }
+
+      .person {
+        color: #4ad0f3;
+        font-weight: bold;
+        p {
+          margin: 10px 10px;
+        }
+      }
+    }
+  }
+}
+
+.follow-icon {
+  .follow {
+    a {
+      border-radius: 20px;
+      border: 2px #4ad0f3 solid;
+      padding: 3px 10px;
+      color: #4ad0f3;
+      font-weight: bold;
+    }
+  }
+}
+
+.b {
+  border-bottom: 2px solid #808080;
+  width: 100%;
+}
+
+.img {
+  img {
+    border-radius: 50%;
+  }
+}
+
+.david {
+  margin-bottom: 8px;
+  span {
+    color: #fff;
+    i {
+      color: #fff;
+    }
+  }
+}
+
+.about {
+  h5 {
+    color: #808080;
+  }
+
+  h2,
+  h4 {
+    color: #fff;
+  }
+  h2 {
+    i {
+      color: #fff;
+    }
+  }
+
+  ul {
+    li {
+      i {
+        color: #808080;
+      }
+    }
+  }
+}
+
+strong {
+  color: #4ad0f3;
+  font-weight: bold;
+}
